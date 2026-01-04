@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Paper collected by Wang</title>
+<title>arXiv Papers of Test-Time Adaptation</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 
@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -41,9 +41,8 @@ span#abs{
 }
 </style>
 </head>
-<body>
-
-</p></br></br><div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.11458.pdf' target='_blank'>https://arxiv.org/pdf/2512.11458.pdf</a></span>   <span><a href='https://github.com/Alchemist0754/Skeleton-Cache' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Jingmin Zhu, Anqi Zhu, Hossein Rahmani, Jun Liu, Mohammed Bennamoun, Qiuhong Ke
+<body><div id='title' style='font-size:1.3em; font-weight:bold;'>arXiv Papers of Test-Time Adaptation</div><br>
+<div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.11458.pdf' target='_blank'>https://arxiv.org/pdf/2512.11458.pdf</a></span>   <span><a href='https://github.com/Alchemist0754/Skeleton-Cache' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Jingmin Zhu, Anqi Zhu, Hossein Rahmani, Jun Liu, Mohammed Bennamoun, Qiuhong Ke
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.11458">Boosting Skeleton-based Zero-Shot Action Recognition with Training-Free Test-Time Adaptation</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>We introduce Skeleton-Cache, the first training-free test-time adaptation framework for skeleton-based zero-shot action recognition (SZAR), aimed at improving model generalization to unseen actions during inference. Skeleton-Cache reformulates inference as a lightweight retrieval process over a non-parametric cache that stores structured skeleton representations, combining both global and fine-grained local descriptors. To guide the fusion of descriptor-wise predictions, we leverage the semantic reasoning capabilities of large language models (LLMs) to assign class-specific importance weights. By integrating these structured descriptors with LLM-guided semantic priors, Skeleton-Cache dynamically adapts to unseen actions without any additional training or access to training data. Extensive experiments on NTU RGB+D 60/120 and PKU-MMD II demonstrate that Skeleton-Cache consistently boosts the performance of various SZAR backbones under both zero-shot and generalized zero-shot settings. The code is publicly available at https://github.com/Alchemist0754/Skeleton-Cache.
 <div id='section'>Paperid: <span id='pid'>2, <a href='https://arxiv.org/pdf/2512.04520.pdf' target='_blank'>https://arxiv.org/pdf/2512.04520.pdf</a></span>   <span><a href='https://github.com/Emilychenlin/BA-TTA-SAM' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Chenlin Xu, Lei Zhang, Lituan Wang, Xinyu Pu, Pengfei Ma, Guangwu Qian, Zizhou Wang, Yan Wang
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.04520">Boundary-Aware Test-Time Adaptation for Zero-Shot Medical Image Segmentation</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Due to the scarcity of annotated data and the substantial computational costs of model, conventional tuning methods in medical image segmentation face critical challenges. Current approaches to adapting pretrained models, including full-parameter and parameter-efficient fine-tuning, still rely heavily on task-specific training on downstream tasks. Therefore, zero-shot segmentation has gained increasing attention, especially with foundation models such as SAM demonstrating promising generalization capabilities. However, SAM still faces notable limitations on medical datasets due to domain shifts, making efficient zero-shot enhancement an urgent research goal. To address these challenges, we propose BA-TTA-SAM, a task-agnostic test-time adaptation framework that significantly enhances the zero-shot segmentation performance of SAM via test-time adaptation. This framework integrates two key mechanisms: (1) The encoder-level Gaussian prompt injection embeds Gaussian-based prompts directly into the image encoder, providing explicit guidance for initial representation learning. (2) The cross-layer boundary-aware attention alignment exploits the hierarchical feature interactions within the ViT backbone, aligning deep semantic responses with shallow boundary cues. Experiments on four datasets, including ISIC, Kvasir, BUSI, and REFUGE, show an average improvement of 12.4\% in the DICE score compared with SAM's zero-shot segmentation performance. The results demonstrate that our method consistently outperforms state-of-the-art models in medical image segmentation. Our framework significantly enhances the generalization ability of SAM, without requiring any source-domain training data. Extensive experiments on publicly available medical datasets strongly demonstrate the superiority of our framework. Our code is available at https://github.com/Emilychenlin/BA-TTA-SAM.
